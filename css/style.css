@@ -1,280 +1,189 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+  font-color: #081A08;
 }
 
-body {
-	background-image: url('../images/subtle_carbon.png');
-	background-repeat: repeat;
-}
+#content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 5em;
+  position: relative;
 
-/*Shana Who?*/
-h1 {
-	font-family: 'Playfair Display';
-	font-size: 6.5em;
-	font-weight: 900;
-	line-height: 0;
-	padding: .4em;
-	margin: 0;
-}
-
-/*DESIGNER & DEVELOPER*/
-h2 {
-	font-family: 'Raleway', 'Open Sans';
-	font-size: 3.2em;
-	padding: 0;
-	margin-bottom: 35px;
-	line-height: 0;
-}
-
-/*blurb*/
-h3 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	font-size: 1em;
-	padding: 0;
-	margin: .6em;
-	text-align: center;
-}
-
-/*resume sections*/
-h4 {
-	font-family: 'Playfair Display';
-	/*font-size: 1.9em;*/
-	font-size: 1.5em;
-	text-align: center;
-	font-style: italic;
-	line-height: 0;
-}
-
-/*resume subheadings*/
-h5 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	/*font-family: 'Raleway';*/
-	/*font-size: 1.5em;*/
-	font-size: 1.3em;
-	text-align: left;
-	line-height: 0;
-	padding: 0;
-	margin: 20px 0;
-}
-
-/*note*/
-h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	font-weight: 300;
-	font-style: italic;
-	padding: 0;
-	margin: 0;
 }
 
 
-p {
-	font-family: 'Open Sans';
-	margin-bottom: 10px;
+#nav-hobbies {
+  text-align: right;
+  font-family: Gotham, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
-
-#top {
-	background-image: url('../images/subtle_carbon.png');
-	position: absolute;
-	background-repeat: repeat;
-	width: 100%;
-	height: 20px;
-	top: 0px;
-	z-index: 100000;
+#nav-hobbies li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  text-decoration: italic;
 }
 
-
-.cover {
-	position: absolute;
+#nav-hobbies .amp{
+  padding-left: 5px;
 }
 
-#main {
-	background-image: url('../images/subtle_carbon.png');
-	background-repeat: repeat;
-	height: 100%;
-	margin: 20px 0;
-	width: 100%;
+.line {
+  width: 100%;
+  height: 1px;
+  line-height: 0;
+  border-top: #000 1px solid;
+  margin-bottom: 10px;
 }
-
-.image {
-	position: relative;
-	width: 550px;
-	height: 780px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-
-	font-weight: 300;
-	font-style: italic;
-	color: #d8d8d7;
-}
-
-.image img {
-	margin-top: 50px;
-	width: 500px;
-}
-
-#down {
-	position: relative;
-	margin-top: 50px;
-}
-
-#arrow {
-	position: relative;
-	bottom: 15px;
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 15px solid #d8d8d7;
-}
-
-
-#about {
-    background-color: #FFFFFF;
-	width: 100%;
-	height: 800px;
-	text-align: center;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	top: 185px;
-	padding: 100px 0;
-}
-
-#divide {
-	height: 1px;
-	width: 610px;
-	margin-left: auto;
-	margin-right: auto;
-	border-bottom: 2px dotted;
-}
-
-#resume {
-    background-color: #FFFFFF;
-	position: relative;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #FFFFFF;
-	padding-bottom: 25px;
-}
-
-#resume-wrapper {
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#resume li {
-	list-style: none;
-	list-style-type: square;
-	font-family: 'Open Sans';
-	font-size: .9em;
-}
-
-#resume h1 {
-	/*font-size: 3.7em;*/
-	font-size: 2.3em;
-	text-align: center;
-	margin: 0;
-}
-
-#dot {
-	height: 20px;
-	width: 600px;
-	border-bottom: 2px dotted #0c0c0c;
-}
-
-#resume ul,  #contact ul {
-	margin: 5px 0;
-}
-
-#rest {
-	font-color: #0c0c0c;
-}
-
-.skills {
-	height: 60px;
-	margin: 0;
-	padding: 0;
-}
-
-	.left {
-		margin: 0;
-		padding: 0;
-		float: left;
-		width: 180px;
-		position: relative;
-		overflow: hidden;
-		left: 0;
-	}
-
-	.right {
-		margin: 0;
-		padding: 0;
-		float: left;
-		width: 180px;
-		position: relative;
-		overflow: hidden;
-		left: 0px;
-	}
-
-	.middle {
-		margin: 0;
-		padding: 0;
-		float: left;
-		width: 180px;
-		position: relative;
-		overflow: hidden;
-		left: 0px;
-	}
-
 
 a {
-	text-decoration: none;
-	color: #0c0c0c;
+  text-decoration: none;
+  color: #081A08;
+}
+
+a:hover {
+  color: #421518;
+  transition: all .2s ease;
 }
 
 
-#new {
-	font-style: bold;
+#about-link {
+  color: #421518;
+}
+
+
+h1 {
+  font-family: Arbutus Slab;
+  font-weight: 700;
+  font-size: 3em;
+  font-color: #081A08;
+
+  text-align: right;
+  margin: 0;
+  line-height: .2em;
+}
+
+h2 {
+  font-family: Gotham, sans-serif;
+  font-size: .9em;
+  margin: 0;
+}
+
+h3 {
+  font-family: Gotham, sans-serif;
+  font-color: #081A08;
+
+}
+
+p {
+  font-family: Gotham, sans-serif;
+  font-color: #081A08;
+  margin-top: 10px;
+}
+
+#pronounce {
+  font-style: italic;
+  float: right;
+}
+
+.likes {
+  font-family: Gotham, sans-serif;
+  margin-top: 0;
+  padding-left: 0;
+}
+.likes li {
+  display: block;
+}
+
+.tools {
+  font-weight: bold;
 }
 
 
 
-#contact {
-	position: relative;
-	background-image: url('../images/subtle_carbon.png');
-    text-align: center;
-    height: 200px;
-    color: #FFFFFF;
-    bottom: -10px;
-    top: 50px;
-	padding-top: 100px;
+.hidden {
+  display: none;
+  transition: all 1s ease;
 }
 
-#contact h1 {
-	font-size: 3.5em;
+.photo {
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin: 0 20px 10px 0;
+  background-color: #444444;
 }
 
-#contact a {
-	color: #FFFFFF;
-	font-family: 'Open Sans', sans-serif;
-	list-style: none;
-	text-decoration: none;
-	display: inline block;
-	font-size: 1.1em;
+h4 {
+  float: right;
 }
 
-#contact ul li {
-	display: inline-block;
-	list-style: none;
-	text-decoration: none;
-	margin: 0 30px 0 0;
-	padding: 5px 0;
+.strike {
+  text-decoration: line-through;
+}
+
+.bear {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+#me {
+  width: 250px;
+  height: auto;
+  float: right;
+  margin: 0px 0px 10px 20;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#art {
+  position: relative;
+}
+
+.grid {
+  position: relative;
+  float: left;
+  width: 260px;
+
+}
+
+.grid img {
+  width: 260px;
+  height: auto;
+  margin-bottom: 10px;
+
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(.5); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}
+
+.grid img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: all 1s ease-in-out;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.more {
+  text-align: center;
+}
+
+.link {
+  font-style: italic;
 }

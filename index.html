@@ -1,167 +1,58 @@
-<!DOCTYPE HTML>
-<html lang="en">
 <head>
-	<title>Shana Hu</title>
-	<meta http-equiv="Content-Type" content="text/html; charset-utf-8">
-	<meta http-equiv="Content-Language" content="en-us">
-	<meta name="author" content="Shana Hu"
-	<meta name="description" content="Shana Who?">
-	<meta name="keywords" content="Shana Hu, Berkeley">
-
-	<!--CSS-->
-	<link type='text/css' rel='stylesheet' href='css/style.css' />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Raleway:400|Playfair+Display:900,900italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/curtain.css">
-
-
-	<!--JS-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-	<script src="js/curtain.js"></script>
-	<script>
-		$('.curtains').curtain();
-
-		$(function () {
-			$('.curtains').curtain({
-				scrollSpeed: 400,
-				controls: '.menu',
-				curtainLinks: '.curtain-links',
-				nextSlide: function() {
-					console.log("ok");
-				}
-			});
-		});
-
-		$(function () {
-			$(document).bind("scroll", function() {
-				var scrolly = $(window).scrollTop();
-				$('#down').css('opacity', (800 - scrolly)/1000);
-			});
-
-		})
-	</script>
-
+  <link href='css/style.css' type='text/css' rel='stylesheet'>
+  <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+  <div id='content'>
 
-	<span id="top"></span>
+    <h1><a href="http://www.shanahu.com" id='about-link' class='nav-link'>Shana Hu</a></h1>
+    <nav>
+  
 
-	<ol class="curtains">
-		<li class="cover">
-			<div id="main">
-				<div class="image">
-					<img src='images/buildbreak.png'/>
+      <ul id='nav-hobbies'>
 
-					<div id="down">
-						<p>scroll down</p><br />
-						<span id="arrow"></span>
-					</div>
+        <li>I</li>
+        <li><a href='http://github.com/shanawho' target='_blank' id='code-link' class='nav-link'>CODE</a></li>
+        <li><a href='http://be.net/shanahu' target='_blank' id='design-link' class='nav-link'>DESIGN</a></li>
+        <li><a href='art.html' id='art-link' class='nav-link'>DRAW</a></li>
+        <li class='amp'>&amp;</span>
+        <li><a href='http://www.medium.com/@shanawho' target='_blank' id='blog-link' class='nav-link'>WRITE</a></li>
+      </ul>
+    </nav>
 
-				</div>
-			</div>
-		</li>
+    <div class="line"></div>
 
+    <div id="about">
+      <img src='img/headshot.jpg' id='me'/>
 
-		<li id="rest">
-	    	<section id="about">
-	    		<h1>Shana Who?</h1>
-		       	<h2>DESIGNER &amp; DEVELOPER</h2>
-		       	<div id='divide'></div>
-		        <div id='blurb'>
-		        	<h3>I'm a 2<sup>nd</sup> year CS major at Berkeley who loves <br />typography, minimalism, and design that delights. <br /><br />
+      <p>
+        I'm <span id='name'>Shana</span>. 
+        Aspiring unicorn design-gineer.
+        <!--<span id='pronounce'>(shay-na)</span>-->
+      </p>
 
-		        	<a href="mailto:shanahu@berkeley.edu" id="new"><em>Show me something new.</em></a></h3>
-		    	</div>
-			</section>
+      <p>
+        I'm a <span id='surprise'>golden bear</span> (Berkeley '16) studying computer science.
+      </p>
 
-	    	<section id="resume">
-	    		<div id="resume-wrapper">
-				<h1>Shana Hu</h1>
+      <p>Want to get to know me? Ask me about:</p>
+        <ul class='likes'>
+          <li>brushstrokes</li>
+          <li>lingua Latina</li>
+          <li>teaching a DeCal</li>
+          <li>unreliable narrators</li>
+          <li>typography</li>
+          <li><span class='strike'>ice skating</span> falling</li>
+          <li>Doctor Who</li>
+          <li>solipsism</li>
+        </ul>
 
-				<div id="dot"><h4>Education</h4></div>
-					<h5>Bachelor of Arts, Computer Science</h5>
-					<ul>
-						<li>University of California, Berkeley</li>
-						<li>GPA 3.71</li>
-						<li>Expected Graduation 2016</li>
-					</ul>
+      <p>Sometimes I tweet about my life <a href='http://www.twitter.com/@shanawho' target='_blank'>@shanawho</a>.</p>
+      <p>Contact me at <a href='mailto:shanahu@berkeley.edu'>shanahu@berkeley.edu</a> or see my resume <a href='http://www.linkedin.com/in/shanahu/' target='_blank' class='link'>here</a>.</p>
 
-				<div id="dot"><h4>Skills</h4></div>
-					<div class="skills">
-						<ul>
-							<ul class="left">
-								<li>Python</li>
-								<li>Java</li>
-								<li>Scheme</li>
-							</ul>
-
-							<ul class='middle'>
-								<li>HTML5</li>
-								<li>CSS3</li>
-								<li>Javascript</li>
-							</ul>
-
-							<ul class='right'>
-								<li>Illustrator</li>
-								<li>Photoshop</li>
-								<li>InDesign</li>
-							</ul>
-						</ul>
-					</div>
-
-				<div id="dot"><h4>Leadership</h4></div>
-				    <h5>Innovative Design: VP of Education</h5>
-					<ul>
-						<li>Facilitated Innovative Design's Introduction to Photoshop and Illustrator DeCal.</li>
-						<li>Taught a weekly 2-hour class of 30 students.</li>
-						<li>Led a Gold Tier Design Team of 10 undergraduates in designing logos, flyers, etc. for campus-affiliated organizations.</li>
-					</ul>
-
-					<h5>CS KickStart: Industrial Relations</h5>
-				    <ul>
-					    <li>Communicated with tech companies for CS KickStart, a pre-college program targeted toward helping incoming female freshmen explore computer science</li>
-						<li>Lab-assisted, mentored participants, ran errands during CS KickStart Week.</li>
-						<li>Organized industrial events including the 2013 industry field trip to Twitter.</li>
-					</ul>
-
-					<h5>Hackers@Berkeley: Student Relations</h5>
-					<ul>
-						<li>Designd promotional materials to help publicize workshops, guest speakers, hackathons, etc.</li>
-					</ul>
-
-				<div id="dot"><h4>Awards &amp; Honors</h4></div>
-					<h5>1st Place at CMYK Designathon 2012</h5>
-					<h6>hosted by Innovative Design &amp; sponsored by Adobe</h6>
-						<ul>
-							<li>Rebranded a local Berkeley business in six hours (hackathon style) in a team of four. (Also won Best Use of Color)</li>
-						</ul>
-
-					<h5>Upsilon Pi Epsilon</h5>
-					<ul>
-						<li>Member of UPE, Berkeley's computer science honor society.</li>
-					</ul>
-
-					<h5>Additional Honors</h5>
-					<ul>
-						<li>U.S. Presidential Scholars Candidate</li>
-						<li>National AP Scholar</li>
-						<li>National Merit Finalist</li>
-						<li>Rensselaer Medalist</li>
-					</ul>
-	    	</section>
-
-	    	<section id="contact">
-			    	<h1 id="name">come say hi!</h1>
-					<ul>
-						<li><a href="http://www.github.com/shanawho" target="_tab">GITHUB</a></li>
-						<li><a href="http://www.behance.net/shanahu" target="_tab">BEHANCE</a></li>
-						<li><a href="http://www.linkedin.com/shanahu" target="_tab">LINKEDIN</a></li>
-						<li><a href="mailto:shanahu@berkeley.edu">EMAIL</a></li>
-					</ul>
-	    	</section>
-	    </li>
-
-	</ol>
-
+    </div>
+  </div>
+  <script src='js/jquery-1.10.2.js' type='text/javascript'></script>
+  <script src='js/shana.js' type='text/javascript'></script>
 </body>
